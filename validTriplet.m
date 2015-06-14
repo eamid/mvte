@@ -18,7 +18,7 @@ function valid = validTriplet(triplet, D, view)
 %
 % Reference:
 % E. Amid, A. Ukkonen, "Multiview Triplet Embedding: Learning Attributes in
-% Multiple Maps", in International Conference in Machine Learning (ICML), 2015.
+% Multiple Maps", in International Conference on Machine Learning (ICML), 2015.
 
 M = size(D,3); % number of views
 label = zeros(M-1,1);

@@ -18,7 +18,7 @@ function [Z, ratios] = tripletCheck(y, triplets)
 %
 % Reference:
 % E. Amid, A. Ukkonen, "Multiview Triplet Embedding: Learning Attributes in
-% Multiple Maps", in International Conference in Machine Learning (ICML), 2015.
+% Multiple Maps", in International Conference on Machine Learning (ICML), 2015.
 
 id1 = triplets(:,1);
 id2 = triplets(:,2);

@@ -18,7 +18,7 @@ function triplets = tripletGen(X, num_const)
 %
 % Reference:
 % E. Amid, A. Ukkonen, "Multiview Triplet Embedding: Learning Attributes in
-% Multiple Maps", in International Conference in Machine Learning (ICML), 2015.
+% Multiple Maps", in International Conference on Machine Learning (ICML), 2015.
 
 M = length(X); % number of views
 N = size(X{1},1); % number of items
